@@ -1,0 +1,148 @@
+<link id="theme-style" rel="stylesheet" href="assets\sass\bootstrap-4.3.1-dist\css\bootstrap.css">
+<link id="theme-style" rel="stylesheet" href="assets\sass\master.css">
+<script defer src="assets/fontawesome/js/all.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<header>
+    <div class="main_menu">
+        <div class="menu_details">
+
+        </div>
+
+
+        <div class="menu_logo">
+            <img src="images\0739884d-bcdf-412f-a548-2785c0e451ea_200x200.png" alt="logo">
+        </div>
+
+
+        <div class="menu_items">
+
+            <div class="dropdown">
+
+                <button class="dropdown-toggle" data-toggle="dropdown">
+                    <a id='toggle_btn' class="fas fa-align-justify fa-4x"></a>
+                </button>
+
+                <ul class="dropdown-menu">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="first">
+    <div class="introduction">
+        <div class="introduction-inner">
+            Discover your world
+        </div>     
+    </div>
+</section>
+
+<section class='second'>
+    <div class="main_content">
+
+        <div class="title">
+            <h3>
+                Welcome to our world
+            </h3>
+        </div>
+
+        <div class="content">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 
+        </div>
+    </div>
+</section>
+
+<section class="third">
+    <div class="third_inner">
+        <div class="title">
+            <h4>Get in toutch</h4>
+        </div>
+
+        <div class="content">
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p> 
+        </div>
+    </div>
+    <img src="images\philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg" alt="">
+</section>
+
+<section class="quarter">
+    <ol>
+        <li>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </li>
+        <li>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </li>
+        <li>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </li>
+        <li>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </li>
+      </ol>
+</section>
+
+<section class='fifth'>
+    <div class="w3-content w3-display-container">
+        <div class="title">
+            <h2>Best of travel news</h2>
+        </div>
+      
+        <div class="mySlides">
+            <img src="images\ray-rui-0mqrqbwjKc4-unsplash.jpg" alt="Africa">
+            <div class="title">
+                <a href="#">Africa</a>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img src="images\artiom-vallat-rFxk_Ea9PME-unsplash.jpg" alt="Greece">
+            <div class="title">
+                <a href="#">Greece</a>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img src="images\willian-justen-de-vasconcellos-4hMET7vYTAQ-unsplash.jpg" alt="Peru">
+            <div class="title">
+                <a href="#">Peru</a>
+            </div>
+        </div>
+        <div class="btns">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+</script>
+    
