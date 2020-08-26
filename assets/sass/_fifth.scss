@@ -1,0 +1,20 @@
+.fifth{
+
+    .title{
+        background-color: #b49285;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        height: 30px;
+        
+        h2{
+            font-size: 24px;
+            font-weight: 500;
+            transform: translate(-26px, 10px);
+        }
+    }        
+    
+    .carousel{
+        top: 45px;
+    }
+}

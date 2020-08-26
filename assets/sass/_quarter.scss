@@ -1,0 +1,28 @@
+.quarter{
+    @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+    width: 100%;
+
+    ol {
+        list-style: none;
+        padding-left: 10px;
+    
+        li {           
+            counter-increment: my-awesome-counter;
+            font-size: 24px; 
+            margin-top: 55px;
+
+        }
+
+        li::before {
+            content: "0" counter(my-awesome-counter) '.';
+            font-weight: bold;
+            font-size: 10rem;
+            font-family: 'Abril Fatface', serif;
+            line-height: 1;
+            color: #b49285;
+            z-index: -1;
+            position: absolute;
+            margin-top: -55px;
+        }
+    }
+}

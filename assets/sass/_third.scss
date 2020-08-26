@@ -1,0 +1,41 @@
+.third{
+    background-color: #70351d;
+    width:100%;
+    padding-top: 90px;
+    height:470px;
+
+    .third_inner{
+        background-color:#b49285 ;    
+        width: 90%;   
+        height: 300px;
+
+        .title{
+            transform: translate(10%, -50%);
+
+            h4{
+                color: white;
+                font-size: 35px;
+            }
+        }
+
+        .content{
+            width: 100%;
+            text-align: right;
+            padding-left: 30px;
+            padding-right: 20px;
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    
+    img{
+        padding-left: 10%;
+        width: 90%;
+        height: 200px;
+        object-fit: cover;
+        transform: translate(11%, -86%);
+       
+    }
+}

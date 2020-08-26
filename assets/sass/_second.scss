@@ -1,0 +1,27 @@
+.second{
+    margin-top: 135px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    
+    .main_content{
+        width: 100%;
+
+        .title{
+            width: 170px;
+            display: flex;
+            flex-wrap: wrap;
+
+            h3{
+                font-size: 30px;
+            }
+        }
+
+        .content{
+
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
