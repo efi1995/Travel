@@ -29,7 +29,7 @@
   <header>
     <div class="header_menu">
       <div class="menu_logo">
-        <a href="<?php echo ROOT_URL; ?>home">
+        <a href="<?php echo ROOT_URL; ?>">
           <img src="images\6ba0454c-7d5d-4a3f-bd59-b24525840817_200x200.png" alt="logo">
         </a>  
     </div>

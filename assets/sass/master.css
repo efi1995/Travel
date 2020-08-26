@@ -109,18 +109,25 @@ header .header_menu .menu_items .dropdown .dropdown-menu {
 }
 
 .first .introduction .introduction-inner {
-  padding-top: 50px;
+  padding-top: 10%;
   margin-left: 50px;
   font-size: 50px;
-  width: 235px;
+  width: 39%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  line-height: 1.2;
 }
 
-.first .introduction:after {
+@media (min-width: 900px) {
+  .first .introduction .introduction-inner {
+    color: white;
+  }
+}
+
+.first .introduction :after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -232,21 +239,28 @@ header .header_menu .menu_items .dropdown .dropdown-menu {
 }
 
 .fifth .title {
-  background-color: #b49285;
-  width: 50%;
+  position: relative;
+}
+
+.fifth .title :after {
+  content: "";
   position: absolute;
-  right: 0;
-  height: 30px;
+  bottom: 0;
+  left: 0;
+  right: 180px;
+  height: 0.5em;
+  border-top: 1px solid black;
 }
 
 .fifth .title h2 {
-  font-size: 24px;
+  text-align: end;
+  font-size: 36px;
   font-weight: 500;
-  -webkit-transform: translate(-26px, 10px);
-          transform: translate(-26px, 10px);
+  padding-right: 20px;
+  color: #70351d;
 }
 
 .fifth .carousel {
-  top: 45px;
+  top: 20px;
 }
 /*# sourceMappingURL=master.css.map */
