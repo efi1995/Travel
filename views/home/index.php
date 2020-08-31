@@ -7,16 +7,40 @@
 		</section>
 		
 		<section class='second'>
-			<div class="main_content">
-		
-				<div class="title">
-					<h3>
-						Welcome to our world
-					</h3>
-				</div>
-		
+			<div class="main_content">				
 				<div class="content">
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for.</p> 
+					<div class="inner_title">
+						<h3>
+							Welcome to our world
+						</h3>
+					</div>
+			
+					<div class="inner_content">
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for.</p> 
+					</div>
+				</div>
+
+				<div class="images">
+					<div class="image1">
+						<img src="images\jerry-zhang-ePpaQC2c1xA-unsplash.jpg" alt="">
+					</div>	
+					<div class="image2">
+						<img src="images\jeremy-bishop-8JQzyO0zAk4-unsplash.jpg" alt="">
+					</div>	
+					<div class="image3">
+						<img src="images\casey-horner-clR8wfL297c-unsplash.jpg" alt="">
+					</div>	
+					<div class="image_content">
+						<div class="image_content_title">
+							<h3>
+								Welcome to our world
+							</h3>
+						</div>
+				
+						<div class="image_content_content">
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for.</p> 
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

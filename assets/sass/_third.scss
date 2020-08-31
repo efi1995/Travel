@@ -9,8 +9,16 @@
         width: 90%;   
         height: 300px;
 
+        @media (min-width: 700px){
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
         .title{
             transform: translate(10%, -50%);
+            max-width: 300px;
 
             h4{
                 color: white;
@@ -33,9 +41,13 @@
     img{
         padding-left: 10%;
         width: 90%;
-        height: 200px;
+        height: 50%;
         object-fit: cover;
         transform: translate(11%, -86%);
-       
+        
+        @media (min-width: 700px){
+            height: 80%;
+            transform: translate(11%, -67%);
+        }
     }
 }
