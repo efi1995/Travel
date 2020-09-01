@@ -435,4 +435,360 @@ header .header_menu .menu_items .dropdown .dropdown-menu {
 .fifth .carousel h3 {
   font-size: 3.75rem;
 }
+
+.contact_first {
+  background-image: url(../../images/kenrick-mills-MF9Wy1NA55I-unsplash.jpg);
+  background-position: 0% 60%;
+  width: 100%;
+  height: 525px;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 700px 100px -500px #fff,   inset 0px -185px 46px -75px #fff;
+          box-shadow: inset 0px 700px 100px -500px #fff,   inset 0px -185px 46px -75px #fff;
+}
+
+.contact_first .contact_inner_first {
+  padding: 10% 1%;
+}
+
+@media (min-width: 400px) {
+  .contact_first .contact_inner_first {
+    padding: 10%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact_first .contact_inner_first {
+    padding-top: 0;
+    max-width: 70%;
+  }
+}
+
+.contact_first .contact_inner_first h1 {
+  font-size: 6.5rem;
+}
+
+.contact_first .contact_inner_first p {
+  font-size: 2rem;
+}
+
+.contact_second {
+  text-align: center;
+  margin-top: -80px;
+}
+
+.contact_second.container {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+@media (min-width: 1000px) {
+  .contact_second.container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.contact_second h2 {
+  font-size: 3rem;
+}
+
+.contact_second hr {
+  width: 10%;
+  background-color: black;
+  height: 1.5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.contact_second p {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1000px) {
+  .contact_second .contact_inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contact_second .contact_inputs input:nth-child(1) {
+    margin-right: 15px;
+  }
+  .contact_second .contact_inputs input:nth-child(2) {
+    margin-left: 15px;
+  }
+}
+
+.contact_second .contact_inputs input {
+  width: 100%;
+  font-size: 2rem;
+  padding-left: 10px;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-width: 1px;
+  color: rgba(0, 0, 0, 0.12);
+  font-weight: 350;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.contact_second textarea {
+  width: 100%;
+  font-size: 2rem;
+  padding-left: 10px;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-width: 1px;
+  color: rgba(0, 0, 0, 0.12);
+  font-weight: 350;
+}
+
+.contact_second .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.contact_second .btn input[type=button] {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #758f97;
+  border: unset;
+  font-size: 16px;
+}
+
+.contact_third {
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 20px;
+}
+
+.contact_third table {
+  padding: 5%;
+  padding-left: 45px;
+}
+
+.contact_third table tr {
+  width: 100%;
+}
+
+.contact_third table tr td {
+  padding-left: 10px;
+}
+
+.contact_third table tr td h3 {
+  font-size: 2rem;
+}
+
+.contact_third table tr td p {
+  font-size: 1.5rem;
+}
+
+.efi {
+  width: 100%;
+  height: 200px;
+}
+
+.explore {
+  background-color: #e2e0e0;
+}
+
+.explore .explore_section_1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.explore .explore_section_1 h1 {
+  padding-bottom: 20px;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.explore .explore_section_1 p {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+@media (min-width: 980px) {
+  .explore .explore_section_2 {
+    padding-right: 2%;
+    padding-left: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    max-width: unset;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .explore .explore_section_2 div:nth-child(even) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 2000px) {
+  .explore .explore_section_2 {
+    max-width: 2000px;
+  }
+}
+
+.explore .explore_section_2 .explore_inner_section_2 {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 980px) {
+  .explore .explore_section_2 .explore_inner_section_2 {
+    width: 30%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.explore .explore_section_2 .explore_inner_section_2 .details {
+  padding-left: 15%;
+  padding-bottom: 20px;
+}
+
+.explore .explore_section_2 .explore_inner_section_2 .details h2 {
+  font-size: 4rem;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+
+.explore .explore_section_2 .explore_inner_section_2 .details p {
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 1.3;
+  max-height: 95px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.explore .explore_section_2 .explore_inner_section_2 .details .select_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.explore .explore_section_2 .explore_inner_section_2 .details .select_btn input[type=button] {
+  width: 100px;
+  height: 40px;
+  background-color: #758f97;
+  border: unset;
+  font-size: 16px;
+  border-radius: 100px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.explore .explore_section_2 .explore_inner_section_2 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 980px) {
+  .explore .explore_section_2 .explore_inner_section_2 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+.blog_section_1 {
+  background-image: url(../../images/ales-krivec-_XNQr5BOcEI-unsplash.jpg);
+  background-position: 0% 60%;
+  width: 100%;
+  height: 525px;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 700px 100px -500px #fff,   inset 0px -185px 46px -75px #fff;
+          box-shadow: inset 0px 700px 100px -500px #fff,   inset 0px -185px 46px -75px #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.blog_section_1 h1 {
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+.blog_section_2:before, .blog_section_2:after {
+  content: unset;
+}
+
+@media (min-width: 600px) {
+  .blog_section_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: unset;
+  }
+}
+
+@media (min-width: 2000px) {
+  .blog_section_2 {
+    max-width: 2000px;
+  }
+}
+
+.blog_section_2 .blog_inner_section_2 {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  .blog_section_2 .blog_inner_section_2 {
+    width: 40%;
+  }
+}
+
+@media (min-width: 900px) {
+  .blog_section_2 .blog_inner_section_2 {
+    width: 30%;
+  }
+}
+
+.blog_section_2 .blog_inner_section_2 .img img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .blog_section_2 .blog_inner_section_2 .img img {
+    height: 300px;
+  }
+}
+
+.blog_section_2 .blog_inner_section_2 .details h2 {
+  font-size: 3rem;
+  font-weight: 100;
+}
 /*# sourceMappingURL=master.css.map */
